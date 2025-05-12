@@ -1,7 +1,7 @@
 {
   "name": "todo",
-  "version": "1.1.1-rc-13",
-  "description": "nest-graphqlb server",
+  "version": "1.1.1-rc-14",
+  "description": "nest-graphql server",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
