@@ -26,8 +26,10 @@ jobs:
     - name: Docker build
       run: |
         docker build -t axel0819/docker-graphql:0.0.2 .
+        docker build -t axel0819/docker-graphql:latest .
     - name: Docker push to DockerHub
       run: |
-        docker push axel0819/docker-graphql:0.0.2   
+        docker push axel0819/docker-graphql:0.0.2
+        docker push axel0819/docker-graphql:latest
     # - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
